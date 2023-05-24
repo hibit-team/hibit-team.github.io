@@ -1,8 +1,8 @@
 module.exports = {
   title: `hibit`,
   description: `Blog posted about ...`,
-  author: `fancy & purin`,
-  introduction: `I explain with words and code. I explain with words and code. I explain with words and code.`,
+  author: `hibit-team`,
+  introduction: `히빗팀 기술 블로그입니다.`,
   siteUrl: `https://hibit-team.github.io/`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
