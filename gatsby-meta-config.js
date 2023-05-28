@@ -5,7 +5,7 @@ module.exports = {
   introduction: `히빗팀 기술 블로그입니다.`,
   siteUrl: `https://hibit-team.github.io/`, // Your blog site url
   social: {
-    github: `hibit-team.github.io/`, // Your GitHub account
+    github: `hibit-team/hibit-team.github.io/`, // Your GitHub account
     instagram: `hibit.co.kr/`, // Your Instagram account
   },
   icon: `content/assets/felog.png`, // Add your favicon
