@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      - gh-pages
+      - develop
 name: build gatsby
 jobs:
   build_gatsby:
@@ -9,19 +9,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14.15.0'
 
-      - name: yarn install
+      - name: Install dependencies
         run: yarn install
 
-      - name: gatsby build
-        env:
-          GH_API_KEY: ${{ secrets.GITHUB }}
+      - name: Build
         run: yarn build
 
-      - name: deploy
-        uses: maxheld83/ghpages@v0.2.1
+      - uses: peaceiris/actions-gh-pages@v2
         env:
-          GATSBY_TOKEN: ${{ secrets.GATSBY_TOKEN }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GH_PAT: ${{ secrets.GITHUB }}
-          BUILD_DIR: 'public/'
+          GITHUB_TOKEN: ${{ secrets.HIBIT_TOKEN }}
+          PUBLISH_BRANCH: master
+          PUBLISH_DIR: ./public
