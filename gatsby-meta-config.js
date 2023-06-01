@@ -1,7 +1,7 @@
 module.exports = {
   title: `hibit`,
   description: `Blog posted about ...`,
-  author: `devFancy`,
+  author: `Hibit-Team`,
   introduction: `히빗팀 기술 블로그입니다.`,
   siteUrl: `https://hibit-team.github.io/`, // Your blog site url
   social: {
@@ -18,7 +18,7 @@ module.exports = {
     countOfInitialPost: 10, // Config your initial count of post
   },
   sponsor: {
-    buyMeACoffeeId: 'jbee',
+    buyMeACoffeeId: 'devFancy',
   },
   share: {
     facebookAppId: '', // Add facebookAppId for using facebook share feature v3.2
