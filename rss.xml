@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[hibit]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://hibit-team.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 06 Jun 2023 02:17:14 GMT</lastBuildDate><item><title><![CDATA[Gatsby 기반의 팀 기술 블로그 생성]]></title><description><![CDATA[…]]></description><link>https://hibit-team.github.io/gatsby/tech-blog-setting-과정/</link><guid isPermaLink="false">https://hibit-team.github.io/gatsby/tech-blog-setting-과정/</guid><pubDate>Tue, 06 Jun 2023 08:06:11 GMT</pubDate><content:encoded>&lt;blockquote&gt;
-&lt;p&gt;기술 블로그 작업을 도와주신 &lt;a href=&quot;https://github.com/purin48&quot;&gt;푸린&lt;/a&gt;님께 이 자리를 빌어 감사의 말씀 전합니다.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[hibit]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://hibit-team.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 06 Jun 2023 02:30:39 GMT</lastBuildDate><item><title><![CDATA[Gatsby 기반의 팀 기술 블로그 생성]]></title><description><![CDATA[…]]></description><link>https://hibit-team.github.io/gatsby/tech-blog-setting-과정/</link><guid isPermaLink="false">https://hibit-team.github.io/gatsby/tech-blog-setting-과정/</guid><pubDate>Tue, 06 Jun 2023 08:06:11 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;이 글은 히빗팀 백엔드 &lt;a href=&quot;https://github.com/devFancy&quot;&gt;팬시&lt;/a&gt;님이 작성했습니다.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&quot;팀-기술-블로그&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%8C%80-%EA%B8%B0%EC%88%A0-%EB%B8%94%EB%A1%9C%EA%B7%B8&quot; aria-label=&quot;팀 기술 블로그 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;팀 기술 블로그&lt;/h2&gt;
 &lt;ul&gt;
@@ -9,7 +9,29 @@
 &lt;li&gt;서로간의 문제 해결을 &lt;code class=&quot;language-text&quot;&gt;공유&lt;/code&gt;하면서 &lt;code class=&quot;language-text&quot;&gt;함께 성장&lt;/code&gt;하는 취지로 팀 기술 블로그를 만들게 되었다.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;gastby-기반의-블로그-테마&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#gastby-%EA%B8%B0%EB%B0%98%EC%9D%98-%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%85%8C%EB%A7%88&quot; aria-label=&quot;gastby 기반의 블로그 테마 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Gastby 기반의 블로그 테마&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;/content/blog/gatsby/images/gatsby-img.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 24%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA9klEQVQY042QQUuEUBSF/WH9hrZBe0GC1tJG3ERk2OaFaFuhTMIkEiHCIAeGwd0IBi2ER/4BF9Zj8r4TvpgKZlFncw4Hzgf3alJKTBo/CM2sQ1O+QtJX95fW299ZW4fZ1TNOdm5xuJ3g+miuunpZI45jCCHUgHOuvCgK9H2/AZtcm8LQCyTHC5zu3uFg6wL+3j1W7wR2xuB5HkzThOu6MAwDjuNA13XYtg3GGMqyVDAi+gFOmt+8IHEWON9/wNNlo7qqqhAEAaIoQhiGyLIMeZ7D932kaQrLstC27TdQnTwMbyBJoFFiWXDUjxwrMf7rh13XbZz8CamxY59WEv03AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;gatsby img&quot;
+        title=&quot;gatsby img&quot;
+        src=&quot;/static/a41c8264d24e3cf62aa6d50e914a2e05/c1b63/gatsby-img.png&quot;
+        srcset=&quot;/static/a41c8264d24e3cf62aa6d50e914a2e05/5a46d/gatsby-img.png 300w,
+/static/a41c8264d24e3cf62aa6d50e914a2e05/0a47e/gatsby-img.png 600w,
+/static/a41c8264d24e3cf62aa6d50e914a2e05/c1b63/gatsby-img.png 1200w,
+/static/a41c8264d24e3cf62aa6d50e914a2e05/d61c2/gatsby-img.png 1800w,
+/static/a41c8264d24e3cf62aa6d50e914a2e05/d8d63/gatsby-img.png 2026w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;Gastby&lt;/code&gt;는 React를 기반으로 하며 최근 프론트엔드 시장에서 자주 등장하며 빠르게 성장하고 있는 &lt;strong&gt;JAM Stack&lt;/strong&gt; 기반의 &lt;strong&gt;정적 사이트 생성 프레임워크&lt;/strong&gt;이다.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -37,7 +59,28 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;/content/blog/gatsby/images/gatsby-bee-starter.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAACoklEQVQ4y21RS08TURTuX3ChaETZ+RdcuXHTvYSwBwwbghEWim4MGxRJMMQHkhhWxCANC95TqGNRqYW2LAhE2gKm02k7ra19z6Mz83nPTCeUhJN8Oefce+53zneu6zSex/vxHcxOBDA38RMLEz+w9Po7OAZ+fBs7r/wIvfyGgzEe0VEfYmNbyMaSWPOuweNZgGfRg/mFeXCbXqiqCtfRgYQXQ1t489yPDyM8Zp99xdyTTXwZXsfS0Cq4xyvwP1pGcHAJkYcenI1weDc6ies3OtDe1oFb126j42o7bl5pw7Z/Gy40rSoXoJk11BtlljVwmWlNPz09jwd3J/HU/RHj96cwd28Kb+8MIuD1w6XrBhRZRTgURvDXLnjej0j4AKqiw9TNC9A1u5HXu4mkkEExX0FBKgAmcPr7hL2LsAlNEzVZwafFLfwR06jVZAjiP0jZorUThd3ZXobGPBnHcdgJBHB0dIg9NoisakgkBYRCIbhMRqiwwshhFCkpB0WRYZg6DEOH1mig0QTFqmaLXl5ZxecVHqlMFrlcCdlcGbFY1CY0DAMNXWfFKupsikq1anUkKK1gZKSEbH1jA8lUhtWynct16ywWj2N3b88mJKTTaWSzEgxG3miZrBU6u3Mkp1Ipq7kz9enZ2UXCTEZCShSQz+dQLBZRKpVQLpctT6AztWWH8fgJpIzI6v+iUqng+PgY4XD4nFBRFAsyk035ZUb7tn/Zi0KhwD6wZjWld9Fo9JyQpIiiCEEQkEgkWNe8VVxlkggUE7SmPJ/PZxHW63ULZJIkYX9/3yYkc+TR+FTkEJKnnCZ3JM/MzMDtdqOrqwudnZ3o7u62cp7n4aJC2g8ROmT0Ac4qKKYaIqaGFAeDQfT29qKvrw/9/f3o6enBwMCApfI/K1KYcLSChX0AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;gatsby bee starter&quot;
+        title=&quot;gatsby bee starter&quot;
+        src=&quot;/static/90c6e1b7082d7a835635a719ee58bc17/c1b63/gatsby-bee-starter.png&quot;
+        srcset=&quot;/static/90c6e1b7082d7a835635a719ee58bc17/5a46d/gatsby-bee-starter.png 300w,
+/static/90c6e1b7082d7a835635a719ee58bc17/0a47e/gatsby-bee-starter.png 600w,
+/static/90c6e1b7082d7a835635a719ee58bc17/c1b63/gatsby-bee-starter.png 1200w,
+/static/90c6e1b7082d7a835635a719ee58bc17/4719e/gatsby-bee-starter.png 1330w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;그래서 &lt;a href=&quot;https://github.com/JaeYeopHan&quot;&gt;JaeYeopHan&lt;/a&gt;이 만드신 &lt;a href=&quot;https://gatsby-starter-bee.netlify.app/&quot;&gt;Bee starter&lt;/a&gt;를 사용하기로 했다.&lt;/li&gt;
 &lt;/ul&gt;
@@ -53,7 +96,28 @@ node -v // v14.15.0&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;nvm ls&lt;/code&gt;로 현재 본인이 어느 버전에 해당하는 지 확인한다.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;/content/blog/gatsby/images/gatsby-nvm-ls.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 29.000000000000004%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAABYlAAAWJQFJUiTwAAABG0lEQVQY04XQy0rDUBSF4byB1DTJSZNomzT3pDa9N7230FTFgSCIIjpz4vuPf08FcWJ18LFgD9Zmb2W73VHOZl+KXp9ut+BKipOUMIrww5AojvGDANd1cRznV7ZtY1kWSnU4sFmvWJRjlvMpi9mEThqTpxFZEtKRZd0kJ8+kPCeJE2I5+xbJpcf0fR/P81Dm5ZTxqmJ6+8Zw/0Rv90hU3uENK9qDG3S54GwSolomdVVF07STdF1HSYqMYLRk8vBB//6d9PBKunkm3UrrF6zrPWpVINwLhG4gTIEQpyleFGDJf10mQ5pH6UjmiJbMVjLG7GRouYdhNxCGgSH+KTTbTaJBm4Yj0CXDMtDVGnr9XKphyDOFqv2Uyfyr8BPetKyV76cvAAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;gatsby nvm ls&quot;
+        title=&quot;gatsby nvm ls&quot;
+        src=&quot;/static/34f9d76ddf621ba8239115d9c78e7314/c1b63/gatsby-nvm-ls.png&quot;
+        srcset=&quot;/static/34f9d76ddf621ba8239115d9c78e7314/5a46d/gatsby-nvm-ls.png 300w,
+/static/34f9d76ddf621ba8239115d9c78e7314/0a47e/gatsby-nvm-ls.png 600w,
+/static/34f9d76ddf621ba8239115d9c78e7314/c1b63/gatsby-nvm-ls.png 1200w,
+/static/34f9d76ddf621ba8239115d9c78e7314/10ab7/gatsby-nvm-ls.png 1552w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;만약 node 버전이 &lt;code class=&quot;language-text&quot;&gt;14.15.0&lt;/code&gt;이 아니라면 아래와 같이 설치해서 default 해준다.&lt;/li&gt;
 &lt;/ul&gt;
@@ -124,7 +188,28 @@ zsh: &lt;span class=&quot;token builtin class-name&quot;&gt;command&lt;/span&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;npm install&lt;/code&gt; 명령어를 입력해서 정상적으로 설치되면 아래와 같은 화면이 나오게 된다.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;/content/blog/gatsby/images/gatsby-npm-install.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 35.66666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAABYlAAAWJQFJUiTwAAABEUlEQVQoz32QzWqEMBSFfYIuWhw1/ps/k1TFYXQxm05H6Kp0UUqh7/8gp9fAgKWMi49zQ3LPPTfBMAyw1kII4ZFSQinllXP+j+39ttZaew2macI8z+i6DnmeoyxL1HVNVF6bpvGDVq2qyr8Jw/Auwep6SzmOI4wxflKSpESChDGwlCFNUw+jcxzHdwkUNffOoSfTlba1hIJ1JZRsoCmVrBVyluMQHRBFkW9c9Vb/MaypQdFKSmky4GQmKKWAc1Rr+icu0CqJIs+oIdpN5w0z+pOnKMaq49HgfDboJ4PT3KLrWyS05sMjJYqLTbIdw0pIlK0BP13w/PYD+/IJe/2Gff2CW0ivH1jeNS5LgSzdN1v5BYOrwkGAMmQ0AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;gatsby npm install&quot;
+        title=&quot;gatsby npm install&quot;
+        src=&quot;/static/a4191f9ff03c20cbc96b382f786caaaf/c1b63/gatsby-npm-install.png&quot;
+        srcset=&quot;/static/a4191f9ff03c20cbc96b382f786caaaf/5a46d/gatsby-npm-install.png 300w,
+/static/a4191f9ff03c20cbc96b382f786caaaf/0a47e/gatsby-npm-install.png 600w,
+/static/a4191f9ff03c20cbc96b382f786caaaf/c1b63/gatsby-npm-install.png 1200w,
+/static/a4191f9ff03c20cbc96b382f786caaaf/dd507/gatsby-npm-install.png 1528w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;h4 id=&quot;예외-사항&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%98%88%EC%99%B8-%EC%82%AC%ED%95%AD&quot; aria-label=&quot;예외 사항 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;예외 사항&lt;/h4&gt;
 &lt;blockquote&gt;
 &lt;p&gt;위의 에러 사항들 외에도 문제가 발생한다면, 기존의 npm의 cahce, node_modules, package-lock.json을 삭제하고 블로그 테마 주인이신 &lt;code class=&quot;language-text&quot;&gt;JaeYeopHan&lt;/code&gt;님이 만든 &lt;a href=&quot;https://github.com/JaeYeopHan/gatsby-starter-bee&quot;&gt;gatsby-starter-bee&lt;/a&gt;의 pacakage.json 파일을 복붙한다. 그리고 다시 &lt;code class=&quot;language-text&quot;&gt;npm install&lt;/code&gt; 한다.&lt;/p&gt;
@@ -153,7 +238,28 @@ You don&apos;t have access to this file.
 &lt;ul&gt;
 &lt;li&gt;그리고 다시 &lt;code class=&quot;language-text&quot;&gt;npm start&lt;/code&gt; 명령어를 입력해서 정상적으로 성공이 나오면, 아래와 같은 화면이 나온다.(localhost:8000)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;/content/blog/gatsby/images/gatsby-npm-start.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 62.66666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAABi0lEQVQ4y4VTWZKCQBTjEO77joAwyNps4oze/0oZ8sq2UGf0I9XQSzp5L218JSHSJEEcx1BKwfd92LYto2VZWC6X2Gw2WK/XAv7PZjOsViuZ3+12MjcYDNDv92G4eYRTWSEMQ0RRJBu73S6GwyHG4/ELRqPRw9pkMpG5O6GVBviuz1BZhqwBlS0WCznU6/UewAPPaM+T1HCyCFVRit26rkXl8Xi82yCxVqUP/QdR6KkIdXWSGlLh4XAQMtaLNaJa0zQxnU5FzTtCUWipxvKpFrKiKOB5HhzHuVvWN2t1n1QajgqlKWljOU1Tsbvf70UZi/5M9JEwKDOcG4VlWYptgjWjRar8ZPGF0Ex8qDhBlucIgkBsM1vMINV0Oh2J0TOeE6C7bfhNU6rGct4QMovJLeQEA86GsDksAy8h+M3GtbOoHRnXnwsu16tEhmTb7VaICNd1ZWSTCCagPXKN5LyQ50hs2LcFvYkKGBk2ha9mPp/LSFAV5zm2v1k7lkEs6xtZP24gwV+v5B3anf8F70pr0jFwJ9kAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;gatsby npm start&quot;
+        title=&quot;gatsby npm start&quot;
+        src=&quot;/static/6135c3a6e95f13d76959fb72ff0949b2/c1b63/gatsby-npm-start.png&quot;
+        srcset=&quot;/static/6135c3a6e95f13d76959fb72ff0949b2/5a46d/gatsby-npm-start.png 300w,
+/static/6135c3a6e95f13d76959fb72ff0949b2/0a47e/gatsby-npm-start.png 600w,
+/static/6135c3a6e95f13d76959fb72ff0949b2/c1b63/gatsby-npm-start.png 1200w,
+/static/6135c3a6e95f13d76959fb72ff0949b2/a8c87/gatsby-npm-start.png 1538w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;h3 id=&quot;3-gatsby-config-수정&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-gatsby-config-%EC%88%98%EC%A0%95&quot; aria-label=&quot;3 gatsby config 수정 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. Gatsby config 수정&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;설치가 완료되었으면, 이제 config에 있는 기본 값들을 바꾸면 된다.&lt;/li&gt;
@@ -260,7 +366,28 @@ origin  https://github.com/hibit-team/hibit-team.github.io.git (push)&lt;/code&g
 &lt;li&gt;정상적으로 성공하면, 마지막에 &lt;code class=&quot;language-text&quot;&gt;Published&lt;/code&gt; 단어가 보인다.&lt;/li&gt;
 &lt;li&gt;master 브랜치에 가보면, 아래와 같이 빌드된 파일들이 업로드 된 것을 확인할 수 있다.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;/content/blog/gatsby/images/gatsby-master.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 72.66666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAABYlAAAWJQFJUiTwAAACR0lEQVQ4y21UWW7bMBT0/Y9SoP+5RtEDFIkTW7ZIiYu4iZKm86gojosSICSb5HA2++T8hFIyck7IKWFdF8jYtq3NdV0he6YQ2/Pn7xf8+PWCMAXUOuMYy7K0vadhtBhchraFzwLNd2N5yVx5UUXKM0LMSKkQNOFd3XC3Gl0/4K0zcPGZwOly7XBXY9vQawM1Oig9YjAOxhdkgoaUyS7AugnWTEixwJHhyIvnuuL7OOnBwFqL0Rgys5i4MRGglJksF8paMAtbzrlWeK6HmLhvQozxiV1jqMmk5Nw+yPDcqPRANg6ensklwlb72tblwmMK+AH4xfCjU+h7Ra8K6rKSqUN363fZ9FfAxZLbmGn8vm6db+zyJ5EnhsZRAhOUzTJFjhyYpsjvU2Mh/rlYmeLW1iMtEWAJaSf3DfBOJnV+xC8yhZWxDo7A8pTDys3PkhmM8alV5YmhpCuheO+bBAHslSaIbWDDaJr0nrUSNg0shLbuqYJ4/0pm9GQoaUo5U86twGJDbGkekve+SQPEbxfYWRNYq/W5hz0ll1K+JAuYsMxZOrhPAYhleaxLwmzBOAwoNWPdGs1Pyd2NEhU0F53bfevVw0ORpin5qI2jNQJorW/eJqo7qk1ISrZSDd2qI+8pPSQHVuPomwtMmR6KJcLajq9w5g+2ekeersjKYVslZQJdrldcLtfGUg7rYWwMjyk1UgyFrWq+ykXrQitSwFzkT0U+L0326ePjgvP7O97OZ1y7rh2+93vK8i4pK/48+8/aHJL/N6SSfwGypoku0tI5fgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;gatsby master&quot;
+        title=&quot;gatsby master&quot;
+        src=&quot;/static/aea972a25c1fbdf4f2093fc31f9435bc/c1b63/gatsby-master.png&quot;
+        srcset=&quot;/static/aea972a25c1fbdf4f2093fc31f9435bc/5a46d/gatsby-master.png 300w,
+/static/aea972a25c1fbdf4f2093fc31f9435bc/0a47e/gatsby-master.png 600w,
+/static/aea972a25c1fbdf4f2093fc31f9435bc/c1b63/gatsby-master.png 1200w,
+/static/aea972a25c1fbdf4f2093fc31f9435bc/09ede/gatsby-master.png 1710w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;h3 id=&quot;5-브랜치-분리develop-생성&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#5-%EB%B8%8C%EB%9E%9C%EC%B9%98-%EB%B6%84%EB%A6%ACdevelop-%EC%83%9D%EC%84%B1&quot; aria-label=&quot;5 브랜치 분리develop 생성 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;5. 브랜치 분리(develop 생성)&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;배포는 develop 브랜치에서 하기 때문에 브랜치를 분리한다.&lt;/li&gt;
@@ -276,11 +403,54 @@ origin  https://github.com/hibit-team/hibit-team.github.io.git (push)&lt;/code&g
 &lt;ul&gt;
 &lt;li&gt;소스코드가 develop 브랜치에 잘 올라갔다면, github default 브랜치를 develop으로 바꿔준다.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;/content/blog/gatsby/images/gatsby-default-branch.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 67%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB5ElEQVQ4y21TiY6rMBDr/3/kPu2+UsoRyMUZgtczUNSVGskMIuCMPebmwwCBdZEI6HoH5we9F/SWYHU+wnRWa289+t6iqWqM44xpXolF6y2OC+qmQ4gDZj4cxgnzssKYjoQOOe/Ytg1bzkclUmJNCesycz9j3/cLN9mMJNMXicyHsloSVuxgXZO+uG35vMeHdZDJuglRVTcoyyestdeG6Xp8/fsmacODMhZ27ZzXfenqhY0K8tshSui8RwjxIpPlfUDxeOhBTdsq6hNiyzjTu2lGnOjfmi/pStj1PX1JSpTyJgIwDBPKp0FZdSjKlp226I1ReCoR2N6js5Hfc5h2UCU3Iaqb5iJctpXyZpj/Pyi/f9CxwzxN2OcJeMM+jYqsdUL27uhQjL7fC43Btdi1rSiVgzHsXqYttrgQFL11moo4jMSAwDo7fk/ZKlmm/PJPr1tCywlXjJPlcCR/MqSmMehYA/1N64p8xkgilaM/CEWqvsSTY4yHdG5EQ8+KO8a6og8zQGkKkbxQ4hiRhxNyH/wrh4mxqdVHIdRYEB3NfxQFh1EhymEnAqVHJiLL8GSyiu0M9hkbicia0p/El63HV8FwG6f5lCSIzwLx9HO+zw6f7KJpWv1TXkuyJv/m5z8Dfw5/xy8t3/GskU4icQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;gatsby default branch&quot;
+        title=&quot;gatsby default branch&quot;
+        src=&quot;/static/c97e39afa88d2ad96fbe06a75c322206/c1b63/gatsby-default-branch.png&quot;
+        srcset=&quot;/static/c97e39afa88d2ad96fbe06a75c322206/5a46d/gatsby-default-branch.png 300w,
+/static/c97e39afa88d2ad96fbe06a75c322206/0a47e/gatsby-default-branch.png 600w,
+/static/c97e39afa88d2ad96fbe06a75c322206/c1b63/gatsby-default-branch.png 1200w,
+/static/c97e39afa88d2ad96fbe06a75c322206/d61c2/gatsby-default-branch.png 1800w,
+/static/c97e39afa88d2ad96fbe06a75c322206/3c2d4/gatsby-default-branch.png 2092w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;그러면 develop 브랜치에서 업로드된 파일을 확인할 수 있다.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;/content/blog/gatsby/images/gatsby-develop.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1200px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75.33333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB7ElEQVQ4y3WTW27cMAxFvf8ddAddSoF+9qPfRTMZT/yQbUnWw5JvScpK7GQqQDBG4hzxXpKNtRZKzVhXB2tXGGORc8a+77J5rc5jmhd4G/Dzzy98+/EdL32L6D3dlpiUkvyvGfoe9/YBNS0Yxkm2Niucj7J92AQ4L4agBt2o0E0Kszb42yqMOhxITgBoerNBUWBdOe+YCL4s+pJpzXbbNlHBasZJI25ZgDVGgB1lVV7YBaKmGSHEC6wCnS/y2aKZvjmnkl8Fzi5B02v1gIGaMlhIEn9j3I7zch9jFBjfDST/82qmNcFQQH2lAA28DwJLqcjO+weQYSEEAq9fbGkswdrHm1TpLDmSV2cpuUrmApHUosJKIS5ADrjfW2itr8B4BZ49LEBH3muE+MlDltb3Q0n/JJmreZZavpBiWYrlDGfqhJSvhRPgMIzizS5tk2Go2bct/R9I92YN6JSBcVclIvnldpOg0vEfkvdnHh5twxY92hbWGcoycWABrs7hdnvFqNSTPvzqISuSMeQJoiwDKclHy3BEwy+yh/OyvM8j9yBnfs6uSg+RPfTQyxvur78RXYdV3+HHGTupa3woReFxwsnD2oNXD3c5N4YHYUNOXnbaHPIxAO9tw1L2w8NRTQLlszoh5VuKwpbw72frH8OHlNRvdqN2AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;gatsby develop&quot;
+        title=&quot;gatsby develop&quot;
+        src=&quot;/static/7e8e586273f3a68676948938adb56483/c1b63/gatsby-develop.png&quot;
+        srcset=&quot;/static/7e8e586273f3a68676948938adb56483/5a46d/gatsby-develop.png 300w,
+/static/7e8e586273f3a68676948938adb56483/0a47e/gatsby-develop.png 600w,
+/static/7e8e586273f3a68676948938adb56483/c1b63/gatsby-develop.png 1200w,
+/static/7e8e586273f3a68676948938adb56483/6c86f/gatsby-develop.png 1720w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;h2 id=&quot;content---post-업로드&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#content---post-%EC%97%85%EB%A1%9C%EB%93%9C&quot; aria-label=&quot;content   post 업로드 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Content - post 업로드&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;이제 설치도 끝났고, 배포도 되었으니 원하는 post를 만들어서 업로드하는 과정을 한다.&lt;/li&gt;
@@ -303,6 +473,9 @@ origin  https://github.com/hibit-team/hibit-team.github.io.git (push)&lt;/code&g
 &lt;li&gt;Gatsby 기반 폴더 구조와 설치하는 과정을 알게 되었지만, 100% 이해는 못했다. 추후에 여유가 된다면 Gatsby에 대한 깊은 지식을 다뤄볼 예정이다.&lt;/li&gt;
 &lt;li&gt;추가적으로 지금은 배포에 대한 명령어를 수시로 입력해야 하는데, 해당 부분을 &lt;strong&gt;Github Action&lt;/strong&gt;을 활용하여 &lt;strong&gt;배포 자동화&lt;/strong&gt;를 적용할 예정이다.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;해당 기술 블로그 세팅 작업을 도와주신 &lt;a href=&quot;https://github.com/purin48&quot;&gt;푸린&lt;/a&gt;님께 이 자리를 빌어 감사의 말씀 전합니다.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h2 id=&quot;reference&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#reference&quot; aria-label=&quot;reference permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Reference&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/JaeYeopHan/gatsby-starter-bee/blob/master/README.ko.md&quot;&gt;gastby-starter-bee/README.ko.md&lt;/a&gt;&lt;/li&gt;
