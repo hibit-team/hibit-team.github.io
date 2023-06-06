@@ -346,7 +346,7 @@ git push -u origin develop
 
 **Support script for creating new post**
 
-![cli-tool-example](/assets/cli-tool-example.gif)
+![cli-tool-example](../../assets/cli-tool-example.gif)
 
 ```shell
 npm run post
