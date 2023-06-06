@@ -5,6 +5,8 @@ category: 'Gatsby'
 draft: false
 ---
 
+> 기술 블로그 작업을 도와주신 [푸린](https://github.com/purin48)님께 이 자리를 빌어 감사의 말씀 전합니다.
+
 ## 팀 기술 블로그
 
 - 이전까지 팀 프로젝트를 진행하면서, 한번도 프로젝트에 관한 기술 블로그를 작성한 적이 없었다.
@@ -14,7 +16,7 @@ draft: false
 
 ## Gastby 기반의 블로그 테마
 
-![](/content/blog/gastby/images/gatsby-img.png)
+![](/content/blog/gatsby/images/gatsby-img.png)
 
 > `Gastby`는 React를 기반으로 하며 최근 프론트엔드 시장에서 자주 등장하며 빠르게 성장하고 있는 **JAM Stack** 기반의 **정적 사이트 생성 프레임워크**이다.
 
@@ -33,7 +35,7 @@ draft: false
   - 1. UI가 이쁘고 깔끔하면서, UX 관점에서 이동이 편리하다.
   - 2. 기술 블로그에 대한 설명이 어느 정도 있어야 한다.
 
-![](/content/blog/gastby/images/gatsby-bee-starter.png)
+![](/content/blog/gatsby/images/gatsby-bee-starter.png)
 
 - 그래서 [JaeYeopHan](https://github.com/JaeYeopHan)이 만드신 [Bee starter](https://gatsby-starter-bee.netlify.app/)를 사용하기로 했다.
 
@@ -50,7 +52,7 @@ node -v // v14.15.0
 
 - `nvm ls`로 현재 본인이 어느 버전에 해당하는 지 확인한다.
 
-![](/content/blog/gastby/images/gatsby-nvm-ls.png)
+![](/content/blog/gatsby/images/gatsby-nvm-ls.png)
 
 - 만약 node 버전이 `14.15.0`이 아니라면 아래와 같이 설치해서 default 해준다.
 
@@ -150,7 +152,7 @@ npm ERR!     /Users/som/.npm/_logs/2023-05-20T09_03_58_512Z-debug.log
 
 - `npm install` 명령어를 입력해서 정상적으로 설치되면 아래와 같은 화면이 나오게 된다.
 
-![](/content/blog/gastby/images/gatsby-npm-install.png)
+![](/content/blog/gatsby/images/gatsby-npm-install.png)
 
 #### 예외 사항
 
@@ -184,7 +186,7 @@ sudo chmod -R 777 /Users/som/.config/gatsby/
 
 - 그리고 다시 `npm start` 명령어를 입력해서 정상적으로 성공이 나오면, 아래와 같은 화면이 나온다.(localhost:8000)
 
-![](/content/blog/gastby/images/gatsby-npm-start.png)
+![](/content/blog/gatsby/images/gatsby-npm-start.png)
 
 ### 3. Gatsby config 수정
 
@@ -307,7 +309,7 @@ npm run deploy
 
 - master 브랜치에 가보면, 아래와 같이 빌드된 파일들이 업로드 된 것을 확인할 수 있다.
 
-![](/content/blog/gastby/images/gatsby-master.png)
+![](/content/blog/gatsby/images/gatsby-master.png)
 
 ### 5. 브랜치 분리(develop 생성)
 
@@ -328,11 +330,11 @@ git push -u origin develop
 
 - 소스코드가 develop 브랜치에 잘 올라갔다면, github default 브랜치를 develop으로 바꿔준다.
 
-![](/content/blog/gastby/images/gatsby-default-branch.png)
+![](/content/blog/gatsby/images/gatsby-default-branch.png)
 
 - 그러면 develop 브랜치에서 업로드된 파일을 확인할 수 있다.
 
-![](/content/blog/gastby/images/gatsby-develop.png)
+![](/content/blog/gatsby/images/gatsby-develop.png)
 
 ## Content - post 업로드
 
