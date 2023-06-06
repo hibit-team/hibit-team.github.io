@@ -1,8 +1,7 @@
 ---
-title: Gatsby 기반의 팀 기술 블로그 생성
+title: 'Gatsby 기반의 팀 기술 블로그 생성'
 date: 2023-06-06 08:06:11
-category: gatsby
-thumbnail: { thumbnailSrc }
+category: 'Gatsby'
 draft: false
 ---
 
