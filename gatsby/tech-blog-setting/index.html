@@ -284,6 +284,12 @@ zsh: <span class="token builtin class-name">command</span> not found: nvm</code>
 <ul>
 <li>해당 폴더에 이동한 다음 <code class="language-text">npm start</code> 명령어를 입력한다.</li>
 </ul>
+<blockquote>
+<p>ERROR 1. permission</p>
+</blockquote>
+<ul>
+<li>빌드 과정에서 permission이 없어서 아래와 같이 오류가 발생한다.</li>
+</ul>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">Error: EACCES: permission denied, <span class="token function">open</span> <span class="token string">'/Users/som/.config/gatsby/config.json'</span>
 You don't have access to this file.
 
@@ -298,9 +304,16 @@ You don't have access to this file.
     at Module.load <span class="token punctuation">(</span>internal/modules/cjs/loader.js:928:32<span class="token punctuation">)</span>
     at Function.Module._load <span class="token punctuation">(</span>internal/modules/cjs/loader.js:769:14<span class="token punctuation">)</span></code></pre></div>
 <ul>
-<li>빌드 과정에서 permission이 없어서 아래와 같이 발생한 문제라는 오류가 발생한다면, <code class="language-text">chomd</code> 명령어를 통해 폴더별 권한을 변경한다.</li>
+<li>이런 오류가 발생한다면, <code class="language-text">chmod</code> 명령어를 통해 폴더별 권한을 변경한다.</li>
 </ul>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token function">sudo</span> <span class="token function">chmod</span> -R <span class="token number">777</span> /Users/som/.config/gatsby/</code></pre></div>
+<blockquote>
+<p>ERROR 2. Cannot find module ‘react-dev-utils/getPublicUrlOrPath’</p>
+</blockquote>
+<p>해결 방법</p>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token function">npm</span> <span class="token function">install</span> --save-dev react-dev-utils
+// or
+<span class="token function">npm</span> <span class="token function">install</span> react-dev-utils --save</code></pre></div>
 <ul>
 <li>그리고 다시 <code class="language-text">npm start</code> 명령어를 입력해서 정상적으로 성공이 나오면, 아래와 같은 화면이 나온다.(localhost:8000)</li>
 </ul>
