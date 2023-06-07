@@ -162,6 +162,10 @@ npm ERR!     /Users/som/.npm/_logs/2023-05-20T09_03_58_512Z-debug.log
 
 - 해당 폴더에 이동한 다음 `npm start` 명령어를 입력한다.
 
+> ERROR 1. permission
+
+- 빌드 과정에서 permission이 없어서 아래와 같이 오류가 발생한다.
+
 ```shell
 Error: EACCES: permission denied, open '/Users/som/.config/gatsby/config.json'
 You don't have access to this file.
@@ -178,10 +182,20 @@ You don't have access to this file.
     at Function.Module._load (internal/modules/cjs/loader.js:769:14)
 ```
 
-- 빌드 과정에서 permission이 없어서 아래와 같이 발생한 문제라는 오류가 발생한다면, `chomd` 명령어를 통해 폴더별 권한을 변경한다.
+- 이런 오류가 발생한다면, `chmod` 명령어를 통해 폴더별 권한을 변경한다.
 
 ```shell
 sudo chmod -R 777 /Users/som/.config/gatsby/
+```
+
+> ERROR 2. Cannot find module 'react-dev-utils/getPublicUrlOrPath'
+
+해결 방법
+
+```shell
+npm install --save-dev react-dev-utils
+// or
+npm install react-dev-utils --save
 ```
 
 - 그리고 다시 `npm start` 명령어를 입력해서 정상적으로 성공이 나오면, 아래와 같은 화면이 나온다.(localhost:8000)
